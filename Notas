@@ -1,0 +1,106 @@
+package com.example;
+
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+import org.testng.annotations.*;
+import static org.testng.Assert.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import java.io.File;
+import org.apache.commons.io.FileUtils;
+
+public class UntitledTestCase {
+  private WebDriver driver;
+  private String baseUrl;
+  private boolean acceptNextAlert = true;
+  private StringBuffer verificationErrors = new StringBuffer();
+  private JavascriptExecutor js;
+
+  @BeforeClass(alwaysRun = true)
+  public void setUp() throws Exception {
+    System.setProperty("webdriver.chrome.driver", "");
+    driver = new ChromeDriver();
+    baseUrl = "https://www.google.com/";
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+    js = (JavascriptExecutor) driver;
+  }
+
+  @Test
+  public void testUntitledTestCase() throws Exception {
+    driver.get("http://190.196.189.178:8080/ecrm/");
+    //ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=1 | ]]
+    //ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=1 | ]]
+    driver.findElement(By.id("cmdAgregar")).click();
+    //ERROR: Caught exception [ERROR: Unsupported command [selectFrame | index=22 | ]]
+    driver.findElement(By.id("igtxttelCelularContacto")).click();
+    driver.findElement(By.id("txtNombreContacto")).click();
+    driver.findElement(By.id("txtNombreContacto")).clear();
+    driver.findElement(By.id("txtNombreContacto")).sendKeys("w putin");
+    driver.findElement(By.id("txtDireccionContacto")).click();
+    driver.findElement(By.id("txtDireccionContacto")).clear();
+    driver.findElement(By.id("txtDireccionContacto")).sendKeys("kremmlim moscow");
+    driver.findElement(By.id("txtNombreContacto")).click();
+    driver.findElement(By.id("txtNombreContacto")).clear();
+    driver.findElement(By.id("txtNombreContacto")).sendKeys("wlad");
+    driver.findElement(By.id("txtAPELLIDOSCONTACTO")).click();
+    driver.findElement(By.id("txtAPELLIDOSCONTACTO")).clear();
+    driver.findElement(By.id("txtAPELLIDOSCONTACTO")).sendKeys("putin");
+    driver.findElement(By.id("txtComunaContacto")).click();
+    driver.findElement(By.id("txtComunaContacto")).clear();
+    driver.findElement(By.id("txtComunaContacto")).sendKeys("moscumun");
+    driver.findElement(By.id("txtOfertaContacto")).click();
+    driver.findElement(By.id("txtOfertaContacto")).clear();
+    driver.findElement(By.id("txtOfertaContacto")).sendKeys("unicacash");
+    driver.findElement(By.id("txtRUTContacto")).click();
+    driver.findElement(By.id("txtRUTContacto")).clear();
+    driver.findElement(By.id("txtRUTContacto")).sendKeys("6666");
+    driver.findElement(By.id("igtxttelTelefonoContacto")).click();
+    //ERROR: Caught exception [ERROR: Unsupported command [selectFrame | relative=parent | ]]
+    driver.findElement(By.id("btnAceptar")).click();
+    new Select(driver.findElement(By.id("cboDBABM"))).selectByVisibleText("117 - MOVILOUT - GLOBAL AXIS");
+    driver.findElement(By.id("btnCancelarDB")).click();
+  }
+
+  @AfterClass(alwaysRun = true)
+  public void tearDown() throws Exception {
+    driver.quit();
+    String verificationErrorString = verificationErrors.toString();
+    if (!"".equals(verificationErrorString)) {
+      fail(verificationErrorString);
+    }
+  }
+
+  private boolean isElementPresent(By by) {
+    try {
+      driver.findElement(by);
+      return true;
+    } catch (NoSuchElementException e) {
+      return false;
+    }
+  }
+
+  private boolean isAlertPresent() {
+    try {
+      driver.switchTo().alert();
+      return true;
+    } catch (NoAlertPresentException e) {
+      return false;
+    }
+  }
+
+  private String closeAlertAndGetItsText() {
+    try {
+      Alert alert = driver.switchTo().alert();
+      String alertText = alert.getText();
+      if (acceptNextAlert) {
+        alert.accept();
+      } else {
+        alert.dismiss();
+      }
+      return alertText;
+    } finally {
+      acceptNextAlert = true;
+    }
+  }
+}

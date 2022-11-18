@@ -1,0 +1,47 @@
+25-Oct-2022
+ToDo:
+
+1)Cambios en el drive 
+  -Dos campos para nombre y apellido listo!
+  -Region  comuna => city Listo
+  -Observaciones? Listo?
+  -Lista de CAC y CPS Listo 
+  -Certificar que los epuipos wua y apple estan correctos.
+  -Adicional( direccion. Hay que establecer como se usan.)
+
+2) Falta:
+   -Incidencia Importante: Los titulos de la mision en numero variable
+    Numero variable de columnas para la mision:
+     Solucion   1.  titulo a borrar: check que esta y borrar sino esta siguiente titulo
+                2.  contar los titulos y agregar columnas target a partir de eso
+                3.  aparece una columna con titulo string none (arreglar)
+   -Caracteristicas: si no se accionan los comando de selenium hace 60
+    ciclos(ventas sin procesar) y se cae el servicio.               
+                
+   -Sanear el nombre para la region como sanae el nombre de la comuna(sacarla del Objeto helper)listo            
+   -Traerme la data del drive(dificultades con cuotes: 60 operaciones en
+   un minuto) Postergado. Se cargara en Excell
+   -Integrar el constructor de mission con c3pio Listo 90%
+   -Disennar y programar una Interfaz grafica.  30%
+   -Integrar  mission c3pio y Interfaz grafica. 90%
+   
+3) Pruebas:
+   -Data dummy para una mission listo
+   -Pruebas de integracion para cada paso del robot 70%
+   
+
+4) Hacer el levantamiento de los pasos para: (todo Listo)
+   -Guardar una venta(Aceptar)(falta el test de data real)Listo
+    En su lugar se tomara el mensaje de error de la modal sweet alert
+    que se muestra despues de acetpar (Listo)
+   -Extraer el numero de gestion para la venta en especifico y guardarlo Listo
+    
+   
+5) Hacer los mecanismos de reinicio de mision interrumpida.
+
+6) Mecanismo de registro de venta no guardada.
+   reintentar documentar y alertar. 50%
+   
+7) deuda es string no numero validar. Listo
+8) plan vendido (plan L por ejemplo) Listo
+9) Numero de Pedido convertirlo en string Listo(lo hice en el codigo de c3pio) Listo

@@ -1,0 +1,87 @@
+fetures Ui:
+- Que viajen courrentData y archivoOrigen
+- guardar resultados en archivoOrigen
+- Descargar los resultados con un boton
+- stream dede el servidor con la salida del log o programa o mensajes.
+- Manejo de usuario de Neo 
+   para ser usado en el login y en Observaciones 
+- poner todo en bootstrap 5 y theme 20%
+
+fetures excell
+- Implementar Observaciones.Listo( se hizo aun cuando se habia acordado 
+hacerlas manualmente)
+- Migraciones desde cero.(No la voy a hacer. las especificaciones 
+No fueron entregadas a tiempo.
+Se deja para las 2 semanas de  Puesta a Produccion)
+- Validaciones de campos requeridos fijos(via la pagina de Neo) Listo
+
+fetures c3pio
+- Limpiar usuario: reinicar y salir con cancelar
+  ciclo normal listo.
+    falta  
+         1) boton Agregar cuando no aparece 
+         2) cuando se va la internet
+         3) si se va la luz si esta listo(1) estaria listo 
+- Implementar un timeOut para cuando se queda pegado un control
+   en las rutinas de 
+
+- Ciclo de Operacion:
+  poner un While 
+
+
+
+npm install nw --nwjs_build_type=sdk
+
+
+
+
+/home/luisva/Documents/nwjs-sdk/nw .
+https://github.com/evshiron/nwjs-builder-phoenix
+
+
+nwjs multiple html documents
+leer al llegar a la oficina.
+https://stackoverflow.com/questions/35168171/how-to-navigate-to-new-page-in-nw-js
+
+
+
+
+https://github.com/mdn/express-locallibrary-tutorial
+
+
+https://github.com/HowProgrammingWorks/NodejsStarterKit
+
+ $ DEBUG=c3pioservice:* npm start
+________________________________________________________
+const { exec } = require("child_process")
+
+exec("ls -la", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`)
+        return
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`)
+        return
+    }
+    console.log(`stdout: ${stdout}`)
+});
+<!--<form action="/loadmission" method="post" >
+    <label for="fname">ID de Usuario para el robot:</label>
+    <input type="text" id="userId" name="userId">
+    <label for="fname">Password del usuario en Neo</label>
+    <input type="text" id="userPsswdr" name="userPsswdr">
+    <label for="fname">Extencion(normalemente el mismo usuario)</label>
+    <input type="text" id="userExt" name="userExt">
+    </form>--->
+Para endurecer le robot
+
+https://www.folkstalk.com/2022/10/timeout-exception-in-selenium-python-with-code-examples.html
+http://allselenium.info/handle-stale-element-reference-exception-python-selenium/
+https://stackoverflow.com/questions/68135798/python-selenium-error-message-stale-element-reference-element-is-not-attached
+https://stackoverflow.com/questions/70542045/staleelementreferenceexception-message-stale-element-reference-element-is-not
+https://stackoverflow.com/questions/69921027/selenium-python-stale-element-reference-exception
+https://stackoverflow.com/questions/27003423/staleelementreferenceexception-on-python-selenium
+https://stackoverflow.com/questions/40029549/how-to-avoid-staleelementreferenceexception-in-selenium-python
+
+

@@ -1,0 +1,364 @@
+https://www.w3.org/TR/webdriver1/
+https://w3c.github.io/webdriver/#abstract
+https://stackoverflow.com/questions/53614223/selenium-webdriver-how-to-install-chrome-extension-when-run-test-via-selenium-g
+https://stackoverflow.com/questions/33287847/python-selenium-input-textbox-send-keys-not-working
+https://stackoverflow.com/questions/65150832/python-selenium-send-keys-not-sending-any-information-to-element
+https://stackoverflow.com/questions/70155535/why-send-keys-function-doesnt-work-in-python-selenium
+https://stackoverflow.com/questions/61042428/python-selenium-cant-sendkeys-cant-find-input
+
+https://stackoverflow.com/questions/7534622/select-iframe-using-python-selenium
+https://stackoverflow.com/questions/41064509/printing-a-list-of-selenium-webdriver-elements-returns-serial-number-like-inform
+https://stackoverflow.com/questions/14812087/how-to-get-frame-names-in-a-page-using-selenium-webdriver
+
+https://learn-automation.com/how-to-execute-selenium-scripts-on-already-opened-browser/
+https://stackoverflow.com/questions/8344776/can-selenium-interact-with-an-existing-browser-session
+https://stackoverflow.com/questions/71319928/allow-facebook-cookies-to-track-me-through-multiple-sessions-in-selenium
+
+https://medium.com/geekculture/make-your-code-simple-with-python-decorators-598b25a3e93a
+
+<input name="txtUsuario" 
+type="text" maxlength="8" 
+id="txtUsuario" tabindex="2"
+class="CONTROL" autocomplete="off"
+required="" 
+placeholder="Usuario" 
+style="width: 310px;
+ margin-left: 25px;">
+
+//table[@id='FRAME']/tbody[1]/tr[1]/td[1]/div[4]/div[9]/div[1]/input[3]
+
+(//input[@value='Agregar'])[3]
+
+(//input[contains(@class,'BOTON BOTONAGREGAR')])[3]
+
+//*[@id="cmdAgregar"]
+input#cmdAgregar
+
+cmdAgregar
+
+<iframe id="iframe_tabs-2" src="Contactos_Gestion_Full.aspx?modo=Gestion&amp;portNumber=:8080" style="width: 100%; height: 100%;border-style: none; overflow: auto"></iframe>
+
+<div id="cntPanel2" class="SUBCONTENEDOR RESPONSIVE" style="height: 70.297%; width: 95.8678%; top: 17.3267%; left: 2.06612%; z-index: 10; position: absolute;"></div>
+//div[@id='GESTION']//table/tbody[1]/tr[2]/td[1]/div[1]/input[2]
+
+
+/html/body/form/div[4]/table/tbody/tr/td/div[4]/div[1]
+
+
+i=0
+for element in iframeList:
+    #element.get_attribute('id')
+    print(str(element[i]))
+    i=i+1
+//div[@id='cntBase']//table/tbody[1]/tr[1]/td[2]/div[1]/select[1]    
+//div[@class='comboBoxButton']//select
+//div[@id='cntBase']//table/tbody[1]/tr[1]/td[2]/div[1]/select[1]
+//div[@id='cntBase']//table/tbody[1]/tr[1]/td[2]/div[1]/select[1]
+
+//input[@controlestovalidate=',,cboDBABM']
+btnAceptarDB
+
+
+https://anytree.readthedocs.io/en/latest/
+
+https://stackoverflow.com/questions/7867537/how-to-select-a-drop-down-menu-value-with-selenium-using-python
+ #identify the drop down element
+        elem = browser.find_element_by_name(objectVal)
+        for option in elem.find_elements_by_tag_name('option'):
+            if option.text == value:
+                break
+
+            else:
+                ARROW_DOWN = u'\ue015'
+                elem.send_keys(ARROW_DOWN)
+
+
+El campo 'Descuento (Gestion)' es obligatorio.
+El campo 'Comunas (Gestion)' es obligatorio.
+El campo 'Region (Gestion)' es obligatorio.
+El campo 'Ciudades (Gestiones)' es obligatorio.
+El campo "Tipo Venta" es obligatorio.
+El campo 'Direccion (Gestion)' es obligatorio.
+El campo 'Fecha Visita (Gestion)' es obligatorio.
+El campo 'Destino Entrega (Gestion)' es obligatorio.
+El campo 'Venta Nueva o Reingresada' es obligatorio.
+El campo 'Nombre (Gestion)' es obligatorio.
+El campo 'Fono Contacto 2 (Gestion)' es obligatorio.
+El campo 'Abono (Gestion)' es obligatorio.
+El campo 'Rut Cliente (Gestion)' es obligatorio.
+El campo 'Forma de Entrega (Gestion)' es obligatorio.
+El campo 'Hora Visita (Gestion)' es obligatorio.
+El campo 'Apellidos (Gestion)' es obligatorio.
+El campo 'PLANES CUENTA EXACTA PRO (Gestion)' es obligatorio.
+El campo 'Regiones (Gestion)' es obligatorio.
+El campo 'Tipo de Acreditacion (Gestion)' es obligatorio.
+
+
+Para manejar excell 
+pandas ya esta instalado
+OpenPyXl si hace falta mas
+https://openpyxl.readthedocs.io/en/stable/usage.html
+https://pandas.pydata.org/docs/user_guide/10min.html
+usar panda para la data de la mision
+
+requirements.txt es el instalador de packets 
+ - Se usa: 
+    en el virtualenv de orige 
+    (tutorial-env) $ pip freeze > requirements.txt
+(tutorial-env) $ cat requirements.txt
+novas==3.1.1.3
+numpy==1.9.2
+requests==2.7.0
+
+ En el virtual env de llegada:
+ python -m pip install -r requirements.txt
+                         python -m pip install -r  requirementsExcell.txt
+https://docs.python-guide.org/writing/structure/
+https://realpython.com/python-application-layouts/
+
+https://github.com/neerajshukla1911/python-app-starter
+
+https://github.com/wingkwong/pcsk 
+
+https://www.digitalocean.com/community/tutorials/how-to-use-unittest-to-write-a-test-case-for-a-function-in-python
+
+APPLE
+4012192 - IPHONE 6S SPACE GRAY 128GB
+4013913 - Iphone 7 32GB Black
+4013915 - Iphone 7 32GB Silver
+4013917 - Iphone 7 32GB Gold
+4013919 - Iphone 7 32GB Rose Gold
+4013921 - Iphone 7 Jet 128GB Black
+4013923 - Iphone 7 128GB Black
+4013925 - Iphone 7 128GB Silver
+4013927 - Iphone 7 128GB Rose Gold
+4013929 - Iphone 7 Jet 256GB Black
+4013931 - Iphone 7 256GB Black
+4013933 - Iphone 7 Plus 32GB Black
+4013935 - Iphone 7 Plus 32GB Silver
+4013937 - Iphone 7 Plus 32GB Rose Gold
+4013939 - Iphone 7 Plus Jet 128GB Black
+4013941 - Iphone 7 Plus 128GB Black
+4013943 - Iphone 7 Plus Jet 256GB Black
+4013945 - Iphone 7 Plus 256GB Black
+4016066 - IPHONE 6 32GB SPACE GREY
+4016123 - IPHONE 8 SPACE GRAY 64GB
+4016125 - IPHONE 8 SILVER 64GB
+4016127 - IPHONE 8 GOLD 64GB
+4016129 - IPHONE 8 SPACE GRAY 256GB
+4016131 - IPHONE 8 PLUS SPACE GRAY 64GB
+4016133 - IPHONE 8 PLUS SILVER 64GB
+4016135 - IPHONE 8 PLUS GOLD 64GB
+4016137 - IPHONE X SPACE GRAY 64GB
+4016139 - IPHONE X SILVER 64GB
+4016141 - IPHONE X SPACE GRAY 256GB
+4016143 - IPHONE 8 PLUS SPACE GRAY 256GB
+4016954 - IPHONE 8 RED 64GB
+4016955 - IPHONE 8 PLUS RED 64GB
+4017427 - IPHONE X SILVER 256GB
+4017761 - IPHONE XR 64 GB
+70002830 - IPHONE 8 64GB
+70002831 - IPHONE 8 SPACE GRAY 256GB
+70002832 - IPHONE 8 PLUS SPACE GRAY 64GB
+70002833 - IPHONE 8 PLUS SILVER 64GB
+70002835 - IPHONE X SPACE GRAY 64GB
+70002837 - IPHONE X SPACE GRAY 256GB
+70007791 - iPhone 11 64GB
+70007806 - iPhone 11 128GB
+70007812 - iPhone 11 256GB
+70007815 - iPhone 11 PRO 64GB
+70007824 - iPhone 11 PRO 256GB
+iPhone 11 PRO 512GB
+iPhone 11 PRO MAX 128GB
+70007842 - iPhone 11 PRO MAX 256GB
+iPhone 11 PRO MAX 512GB
+
+HUAWEI
+4016878 - P20 Lite
+4016879 - P20 Lite
+4016812 - Y6 2018
+4016811 - Y6 2018
+4016311 - Mate 10 PRO
+4016320 - Mate 10 PRO+RELOJ
+4016313 - Mate 10 PRO
+4016915 - Y5 2018
+4016880 - P20 PRO
+4016950 - P20 PRO
+4017129 - P20 PRO
+4016877 - P20
+4016951 - P20
+4016816 - P Smart
+4016815 - P Smart
+4016814 - Y7 2018
+4016813 - Y7 2018
+4016317 - Mate 10 Lite
+4016315 - Mate 10 Lite
+4017492 - Y5 2018
+4017493 - Y5 2018
+4017782 - MATE 20 LITE
+4017784 - MATE 20 PRO
+70004570 - P SMART 2019
+70004573 - HUAWEI Y7 2019
+70004699 - P30 LITE AURORA
+70004696 - P30 LITE BLACK
+70004574 - Y7 2019 AURORA BLUE
+70004716 - P30 PRO
+70008257 - HUA P40 LITE 128G NG POST
+70008257 - HUA P40 LITE 128G PL POST
+70008259 - HUA P40 PRO 256GB PL POST
+70008261 - HUA P40 PRO 256GB AZ POST
+70008006 - Huawei Y9S
+
+Productos Ofrecido:
+Primera Línea
+Segunda Línea
+Portabilidad Post Pago
+Portabilidad Pre a Post
+Migracion
+
+Operador Donante:
+compania donante:
+ENTEL
+MOVISTAR
+VTR
+VIRGIN
+FALABELLA
+NEXTEL
+WOM
+SIMPLE
+NETLINE
+CLARO
+
+Acreditacion:
+CLIENTE DE OTRA COMPANIA
+SIN ACREDITACION
+
+
+(Primera  Linea, Segunda Linea, Migracion)=> SIN ACREDITACION
+#  (Portabilida Pre a Post)=> SIN ACREDITACION
+
+tipo_de_producto
+Primera Linea
+Segunda Linea
+Portabilidad Postpago a Postpago
+Portabilidad Prepago a Postpago
+
+tabladeProductoOfrecido={
+            'Primera Linea':'Primera Línea',
+            'Segunda Linea':'Segunda Línea',
+            'Portabilidad Postpago a Postpago':'Portabilidad Post Pago',
+            'Portabilidad Prepago a Postpago':'Portabilidad Pre a Post',
+            'Migracion':'Migracion'}
+tabladePortabilidad={
+                    'SIN ACREDITACION':['Primera Linea','Segunda Linea','Portabilidad Prepago a Postpago'],
+                    'CLIENTE DE OTRA COMPANIA':['Portabilidad Post Pago','Migracion']}
+
+##################
+DELIVERY/CAC
+
+
+
+
+
+
+
+
+las Sucursales para el CAC
+
+Antofagasta SSCC
+Apoquindo SSCC
+Arica SSCC
+Calama SSCC
+Castro SSCC
+Chillan SSCC
+Concepcion SSCC
+Copiapo SSCC
+Costanera Center SSCC
+Coyhaique SSCC
+CPS CHICUREO
+CPS COQUIMBO
+CPS LA DEHESA
+CPS LA REINA
+CPS LAS CONDES
+CPS LOS ANDES
+CPS MELIPILLA
+CPS OVALLE
+CPS QUILLOTA
+CPS SAN FERNANDO
+CPS VALLENAR
+CPS VILLARRICA
+Curico SSCC
+El Trebol Concep SSCC  
+Estacion Central SSCC
+Estado SSCC
+Florida Center SSCC
+Gran Avenida SSCC
+Huerfanos SSCC
+Iquique SSCC
+La Calera SSCC
+La Serena SSCC
+Linares SSCC
+Los Angeles SSCC
+Maipu SSCC
+Merced SSCC
+Osorno SSCC
+Plaza Bio Bio SSCC
+Plaza Norte SSCC
+Plaza Oeste SSCC
+Plaza Quilin SSCC
+Pto Montt SSCC
+Puente Alto SSCC
+Puerto Montt II SSCC
+Punta Arenas SSCC
+Quilpue SSCC
+Rancagua SSCC
+San Antonio SSCC
+San Bernardo SSCC
+San Damian SSCC
+SAN FELIPE SSCC
+Santiago Downtown SSCC
+Talca SSCC
+Temuco SSCC
+Valdivia SSCC
+Valparaiso SSCC
+Vespucio II SSCC
+Vespucio SSCC
+Vina del Mar SSCC
+Vina II SSCC
+
+Ultimo control de tipo de venta
+ El ultimo control de tipo de venta 
+# es un calculo a partir de  Producto Ofrecido
+#    producto ofrecido (primera Linea y Segunda Linea )=> VENTA NUEVA
+#                       (MIGRACION)                    => MIGRACION
+#                       (Portabilidad *)               => PORTABILIDAD 
+
+
+Deuda en la columna deuda drive 
+Campaña Winback y Sin Deuda => Cliente Sin Deuda
+Compromete Pago                Compromete Pago
+
+
+sudo snap install pycharm-community --classic
+en cliente primera parte 
+data={ 
+"igtxttxtRutClienteGestion":'rut',
+"txtSerieDeCarnet":'número_de_serie_carnet',
+'igtxttxtNombresGestion':'nombre_y_apellido',
+"igtxttxtApellidosGestion":'None',
+"igtxtfecFechaNacimientoGestion":'fecha_de_nacimiento',
+"igtxttelFonoContacto2Gestion"  :'numero_de_contacto_1',
+"igtxttelFonoContacto1Gestion"  :'numero_de_contacto_2',
+"txtDireccionGestion":'dirección_de_domicilio',
+"txtDireccionentrega":'dirección_de_domiicilio',
+  "emlEmailGestion":'correo_electrónico'
+}
+/usr/local/bin/virtualenvwrapper.sh
+xception has occurred: AttributeError
+'NoneType' object has no attribute 'find_element'
+  File "/home/luisva/Documents/C3pIO/helpers/seleniumMacros/inteliseleniumCmnd.py", line 23, in SsendKey
+    WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID,Idstr)))
+  File "/home/luisva/Documents/C3pIO/helpers/seleniumMacros/steps.py", line 160, in productohastaImei
+    driver=inteliseleniumCmnd.SsendKey(driver,"txtTRANSUNION",str(Venta['numero_de_pedido']))
+  File "/home/luisva/Documents/C3pIO/runmission.py", line 59, in <module>
+    driver=steps.productohastaImei(driver,venta3)

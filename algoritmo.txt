@@ -1,0 +1,26 @@
+
+inicializa
+login
+f=cargafila
+while f <= indicedeVentas:
+   gotoGestiondeclietne
+   tipodeventa
+   cargacellBd
+   llenaformulario
+   ...
+   ...
+   ...
+   acepta:
+      if error
+          registra error
+          quit
+          inicializa
+          login
+          f=cargafila
+      else:
+        registra numeroGestion
+        f=cargafila
+
+
+          
+

@@ -1,0 +1,142 @@
+{
+  "id": "c5c2960a-31ea-429f-866a-9d7a4934032f",
+  "version": "2.0",
+  "name": "p1",
+  "url": "http://190.196.189.178:8080",
+  "tests": [{
+    "id": "edb0876e-cd39-4143-885d-89ecd7b38f44",
+    "name": "t1",
+    "commands": [{
+      "id": "6442a02f-1ed3-453c-afa2-8c3b565d9b3a",
+      "comment": "",
+      "command": "open",
+      "target": "/ecrm/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1625f8-b010-49ab-87cc-2d948248d6c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x723",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a93fd7e3-6640-49d4-b37e-827d380df3bf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "0196b417-c127-49e7-975d-829d7e0470a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtUsuario",
+      "targets": [
+        ["id=txtUsuario", "id"],
+        ["name=txtUsuario", "name"],
+        ["css=#txtUsuario", "css:finder"],
+        ["xpath=//input[@id='txtUsuario']", "xpath:attributes"],
+        ["xpath=//tr[@id='trUser']/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e8eeb37-7d7d-427b-b468-855afe5f2f7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsuario",
+      "targets": [
+        ["id=txtUsuario", "id"],
+        ["name=txtUsuario", "name"],
+        ["css=#txtUsuario", "css:finder"],
+        ["xpath=//input[@id='txtUsuario']", "xpath:attributes"],
+        ["xpath=//tr[@id='trUser']/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "3401"
+    }, {
+      "id": "a85e3b4b-7a03-4bc9-970f-89672371393b",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtClave",
+      "targets": [
+        ["id=txtClave", "id"],
+        ["name=txtClave", "name"],
+        ["css=#txtClave", "css:finder"],
+        ["xpath=//input[@id='txtClave']", "xpath:attributes"],
+        ["xpath=//tr[@id='trPass']/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71178ad0-9064-4347-a73f-4bb6ba54223b",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtClave",
+      "targets": [
+        ["id=txtClave", "id"],
+        ["name=txtClave", "name"],
+        ["css=#txtClave", "css:finder"],
+        ["xpath=//input[@id='txtClave']", "xpath:attributes"],
+        ["xpath=//tr[@id='trPass']/td/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/input", "xpath:position"]
+      ],
+      "value": "2446"
+    }, {
+      "id": "0a760f78-35bb-40ad-987c-3e2e6ae406a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtDevice",
+      "targets": [
+        ["id=txtDevice", "id"],
+        ["name=txtDevice", "name"],
+        ["css=#txtDevice", "css:finder"],
+        ["xpath=//input[@id='txtDevice']", "xpath:attributes"],
+        ["xpath=//tr[@id='trDevice']/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54a9cfb0-79d4-4940-bf62-19f0aadc9e90",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtDevice",
+      "targets": [
+        ["id=txtDevice", "id"],
+        ["name=txtDevice", "name"],
+        ["css=#txtDevice", "css:finder"],
+        ["xpath=//input[@id='txtDevice']", "xpath:attributes"],
+        ["xpath=//tr[@id='trDevice']/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": "3401"
+    }, {
+      "id": "f5fbc2e8-a78f-4633-bda2-94943786d99d",
+      "comment": "",
+      "command": "click",
+      "target": "id=NeoIngresarButton1",
+      "targets": [
+        ["id=NeoIngresarButton1", "id"],
+        ["name=NeoIngresarButton1", "name"],
+        ["css=#NeoIngresarButton1", "css:finder"],
+        ["xpath=//input[@id='NeoIngresarButton1']", "xpath:attributes"],
+        ["xpath=//tr[@id='trIngr']/td/input", "xpath:idRelative"],
+        ["xpath=//tr[9]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b7d14ffc-9ceb-4195-8d58-ce53b837a289",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["edb0876e-cd39-4143-885d-89ecd7b38f44"]
+  }],
+  "urls": ["http://190.196.189.178:8080/"],
+  "plugins": []
+}

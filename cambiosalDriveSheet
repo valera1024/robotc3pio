@@ -1,0 +1,95 @@
+1  En la celda de Nobres y apellidos cambiar a dos  celdas  Nobres,Apellidos
+(esto es Obligado) Listo
+2  En los datos del usuario solo se tiene provincia y ciudad comuna 
+   en el drive solo esta ciudad y comuna. Hay que poner los tres Listo
+   
+3  Los encavezados pasar de "Modalidad Equipo en Arriendo" a 
+   snake_case: "Modalidad_Equipo_en_Arriendo" (Automatizado)
+4  Carnet    poner uno de los dos( por ahora carnet) Listo
+    
+5  	quitar el numero Plan Vendido   Plan M (11.990) (testear)
+6   Modalidad Equipo en Arriendo  cambiar  No aplica por EQUIPO_PROPIO 
+    Equipo en Arriendo  poner -   (No hace falta!!!!)
+
+7 todos los telefonos se antepone el 0 cero 
+   2720515---> 02720515 (listo)
+   
+8 que fockery delivery  Hay un monton. ok llisto
+
+9 todos los campos a texto. ok 
+
+10 formato fecha del drive y excell listo! 
+ 
+11) las Sucursales para el CAC listO
+12) Me hace falta una direccion de entrega. Listo
+13)  Ojo con la las fechas en en el drive Listo
+14 ?????????/// IMPORTANTE CAMBIAR  Confirmado!!! cambiar
+- # Validación de Identidad => N Validación de Identidad
+  Validación de Identidad (PDF)=>Validación de Identidad PDF
+
+- Hay dos Dirección de Domicilio
+  distinguirlas p
+ 
+ 
+
+
+Antofagasta SSCC
+Apoquindo SSCC
+Arica SSCC
+Calama SSCC
+Castro SSCC
+Chillan SSCC
+Concepcion SSCC
+Copiapo SSCC
+Costanera Center SSCC
+Coyhaique SSCC
+CPS CHICUREO
+CPS COQUIMBO
+CPS LA DEHESA
+CPS LA REINA
+CPS LAS CONDES
+CPS LOS ANDES
+CPS MELIPILLA
+CPS OVALLE
+CPS QUILLOTA
+CPS SAN FERNANDO
+CPS VALLENAR
+CPS VILLARRICA
+Curico SSCC
+El Trebol Concep SSCC
+Estacion Central SSCC
+Estado SSCC
+Florida Center SSCC
+Gran Avenida SSCC
+Huerfanos SSCC
+Iquique SSCC
+La Calera SSCC
+La Serena SSCC
+Linares SSCC
+Los Angeles SSCC
+Maipu SSCC
+Merced SSCC
+Osorno SSCC
+Plaza Bio Bio SSCC
+Plaza Norte SSCC
+Plaza Oeste SSCC
+Plaza Quilin SSCC
+Pto Montt SSCC
+Puente Alto SSCC
+Puerto Montt II SSCC
+Punta Arenas SSCC
+Quilpue SSCC
+Rancagua SSCC
+San Antonio SSCC
+San Bernardo SSCC
+San Damian SSCC
+SAN FELIPE SSCC
+Santiago Downtown SSCC
+Talca SSCC
+Temuco SSCC
+Valdivia SSCC
+Valparaiso SSCC
+Vespucio II SSCC
+Vespucio SSCC
+Vina del Mar SSCC
+Vina II SSCC

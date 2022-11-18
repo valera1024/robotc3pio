@@ -1,0 +1,80 @@
+A) En la pagina Si fallo al redactar la venta y salgo 
+   al introducir gestion contacto no entro en la ventana de agregar
+   sin que persiste el contacto (telf) y lo apropiado es 
+   introducir venta y tipo de venta aceptar 
+   y en la pantalla de formulario  descartar abajo
+   (falta ver si esto es suficiente o hay que salir de la pagina 
+    y volver al logear como estoy haciendo) 
+
+
+0)Login
+   
+---Excell.creoLamision con el builder()   
+####
+1)seleccion de gestion:
+ Esto nos pone en situacion de seleccionar La base de datos
+###
+----Excell.tomoUnaVenta()[{coluna_name_etc:valor},....]
+2) Selecciona Agregar 
+   pestana superior izquierda aprox
+3) Se introduce el telf de la venta actual(se hace referencia a: 
+      formulario superior hermano del grande. 
+4) Selecciona la base de dato "globalAxis" 
+### Nota 1)2)3) estan desgranados porque no sabemos como meter una 
+## segunda venta
+
+6) Situacion de elegir tipo de venta:
+    en el primero siempre 'VENTA'
+    venta   pre venta preventa delivery
+    (regla.tipo de venta)
+			0   Pre-Venta *
+			1   Pre-Venta S/A
+			2   Pre venta Delivery *
+			3   PRE VENTA DRIVE
+### falta hacer un helper
+#  venta siempre en cboCategoria
+# Delivery -=> Preventa Delivery
+# CAC  -=> Pre-Venta
+## en el drivesheet celda AD= forma_de_entrega
+La opcion se reflejara en forma_de_entrega_target
+##  
+7)Acepto en la parte de abajo y se presenta la pantalla de formulaio 
+super grande 
+
+8) Formulario grande primera parte(con region ciudad comuna)
+     no lleva nada de Producto.
+     los campos en la tabla son 
+   nombre:
+   Apellidos:
+   
+
+9) La BatiFuncion para la fecha funcionando!!!
+10) Plan vendido (Listo)
+11) El tema con el equipo:
+Modalidad_Equipo_en_Arriendo
+'''En modalidad_equipo_en_arriendo por el nombre de la oferta retornamos
+        Marca y Modelo'''
+        tabladeOfertasMarcas={
+            'NoAplica':'EQUIPO_PROPIO',
+            'DeContado':'HUAWEI',
+            'Pie + 12 Cuotas':'HUAWEI',
+            'Claro UP':'APPLE'}
+        tabladeOfertasModelos={
+            'NoAplica':'-',
+            'DeContado':'4016812 - Y6 2018',
+            'Pie + 12 Cuotas':'4016812 - Y6 2018',
+            'Claro UP':'70007791 - iPhone 11 64GB'}
+            
+12) Producto ofrecido. Listo
+13) Acreditacion listo
+14) los 3 campos cuando se tiene un cliente de otra compania  listo  
+15) Dilema Delivery CAC listo
+16) Tipo de venta: Bueno Venta Nueva o PORTABILIDAD MIGRACION.listo
+17) Deuda listo 
+18) Cliente Base o referido listo
+        
+ 
+ 
+  
+
+

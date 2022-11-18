@@ -1,0 +1,48 @@
+
+Comparto formato de observaciones NEOTEL
+
+OBSERVACIONES EJECUTIVO: EQUIPO ARRIENDO
+
+ID:  
+NOMBRE DE EJECUTIVO: IRWING FERNANDEZ
+PROMOCION:
+FINANCIAMIENTO: (CONTADO) (FINACIADO/BOLETA) (CLARO UP)
+EXAMEN:  51619200//APROBADO
+WINBACK:
+-----------------------------------------------------------
+OBSERVACIONES EJECUTIVO: EQUIPO PROPIO
+
+ID:  
+NOMBRE DE EJECUTIVO: IRWING FERNANDEZ
+PROMOCION:
+EXAMEN:  51619200//APROBADO
+WINBACK:
+----------------------------------------------------------
+??????????????????????????????????
+////////////////////////////////////
+
+3400 (Id de usuario Neo)
+--------------------------
+Se coloca Manual!!!!
+OFERTA MASIVA - 1 LÍNEA
+OFERTA MASIVA - 2X1
+OFERTA MASIVA - MIGRACIÓN
+PROMOCION RED DAYS
+
+las reglas 
+___________________________
+(Modalidad Equipo en Arriendo
+)=> si no (No Aplica) se pone igual
+CLARO UP
+EQUIPO AL CONTADO
+EQUIPO (FINANCIADO EN LA BOLETA)
+----------------------------
+SIN DEUDAS
+OPTA A CAMPAÑA WINBACK
+COMPROMETE PAGO DE DEUDA
+------------------------------
+
+(si venta is cac)=> Validación de Identidad, N Validación de Identidad
+(migraciones especiales)?
+VALIDACIÓN OK: Aprovado
+VALIDACIÓN FALLIDA:
